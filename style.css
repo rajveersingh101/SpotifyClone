@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: "Caveat", cursive;
+
+}
+.brand img{
+
+    width: 44px;
+    padding: 0 8px;
+   
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: "Caveat", cursive;
+    display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url(bg.jpg);
+   
+
+}
+
+.bottom{
+    position: sticky;
+    bottom: -19x;
+    height: 95px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 150vh;
+    cursor: pointer;
+    
+}
+.songItems{
+    height: 30px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+   
+    
+
+}
+.songItems img{
+    height: 25px;
+    margin: 0 20px;
+    border-radius: 100px;
+
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 23vh;
+    font-family: "Caveat", cursive;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
